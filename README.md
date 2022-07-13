@@ -9,7 +9,8 @@ The included detectors are hessian, laplacian-of-Gaussian, Harris and SURF. The 
 # Compile
 ##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MingW) under Windows with only small changes.
 ### Step 1. download libjpeg, zlib and libpng and compile them respectively, copy libjpeg.a, zlib.a and libpng.a to "libs/" folder
-### Step 2. run "make release" under the folder
+### Step 2. run make install for zlib and libpng on your system
+### Step 3. run "make release" under the folder
 
 # Manual
 ##### A PDF manual about the overview about the detectors and descriptors, as well as the call of lip-vireo from commandline could be found under "manual" folder.
