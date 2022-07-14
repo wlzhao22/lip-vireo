@@ -20,9 +20,9 @@ The included detectors are hessian, laplacian-of-Gaussian, Harris and SURF. The 
 ##### A PDF manual about the overview about the detectors and descriptors, as well as the call of lip-vireo from commandline could be found under "manual" folder.
 
 # Copyright Issues
-##### DoG+SIFT has been patented by David G. Lowe in US (Patent No. US 6,711,293B1 [20]). The patent holder is University of British Columbia, Canada
-##### Copyright holder for Fast Hessian and SURF descriptor are Tinne Tuytelaars and et al.;
-##### Copyright holder for FIND descriptor are Mr. Xiao-Jie Guo and et al. from University of Tianjin, China.
+##### 1. DoG+SIFT has been patented by David G. Lowe in US (Patent No. US 6,711,293B1 [20]). The patent holder is University of British Columbia, Canada
+##### 2. Copyright holder for Fast Hessian and SURF descriptor are Tinne Tuytelaars and et al.;
+##### 3. Copyright holder for FIND descriptor are Mr. Xiao-Jie Guo and et al. from University of Tianjin, China.
 
 
 # Author
