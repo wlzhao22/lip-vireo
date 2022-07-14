@@ -7,7 +7,7 @@ In nowadays, traditional image keypoint detectors and descriptors are no longer 
 The included detectors are hessian, laplacian-of-Gaussian, Harris and SURF. The included descriptors are SIFT, LJET, Flip-invariant SIFT, RIFT, and SPIN. Please find out more details from the manual.
 
 # Detectors and Descriptors
-#### Detectors: DoG, LoG, Hessian, Harris, SURF, and Hessian-Affine
+#### Detectors: Difference-of-Gaussian (DoG), Laplacian-of-Gaussian (LoG), Hessian, Hessian-Laplacian, Harris, Harris-Laplacian, SURF, and Hessian-Affine
 #### Descriptors: SIFT, F-SIFT, SURF, FIND, SPIN, LJET, and RIFT
 
 # Compile
