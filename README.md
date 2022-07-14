@@ -6,6 +6,10 @@ In nowadays, traditional image keypoint detectors and descriptors are no longer 
 
 The included detectors are hessian, laplacian-of-Gaussian, Harris and SURF. The included descriptors are SIFT, LJET, Flip-invariant SIFT, RIFT, and SPIN. Please find out more details from the manual.
 
+# Detectors and Descriptors
+#### Detectors: DoG, LoG, Hessian, Harris, SURF, and Hessian-Affine
+#### Descriptors: SIFT, F-SIFT, SURF, FIND, SPIN, LJET, and RIFT
+
 # Compile
 ##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MingW) under Windows with only small changes.
 #### Step 1. Download libjpeg, zlib and libpng packages and compile them respectively, copy libjpeg.a, zlib.a and libpng.a to "libs/" folder
