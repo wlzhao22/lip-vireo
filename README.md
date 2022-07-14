@@ -17,7 +17,7 @@ The included detectors are hessian, laplacian-of-Gaussian, Harris and SURF. The 
 #### Step 3. Run "make release" under the folder
 
 # Manual
-##### A PDF manual about the overview about the detectors and descriptors, as well as the call of lip-vireo from commandline could be found under "manual" folder.
+##### A PDF manual of the overview about the detectors and descriptors, as well as the call of lip-vireo from commandline could be found under "manual" folder.
 
 # Copyright Issues
 ##### 1. DoG+SIFT has been patented by David G. Lowe in US (Patent No. US 6,711,293B1 [20]). The patent holder is University of British Columbia, Canada
