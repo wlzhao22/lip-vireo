@@ -2,13 +2,17 @@
 This is a C++ project including traditional image keypoint detectors and descriptors. 
 
 # Overview
-In nowadays, traditional image keypoint detectors and descriptors are no longer in fashion. They have given place to the deep features, which become increasingly popular since 2012. However, the theories upon which the traditional detectors and descriptors are built are still shiny in nowadays. The scale-space theory from Dr. Tony Lindberg is beautiful. I learned a lot from his papers and book. It took me hundreds of weekends to implement all the detectors and descriptors in this project. This project also saw the birth of 'Flip invariant SIFT', which is my proposal. It well addressed the sensitivity issue of SIFT to flip transformation.
+In nowadays, traditional image keypoint detectors and descriptors are no longer in fashion. They have given place to the deep features, which become increasingly popular since 2012. However, the theories upon which the traditional detectors and descriptors are built are still shiny in nowadays. The scale-space theory from Dr. Tony Lindberg is beautiful. I learned a lot from his papers and book. It took me hundreds of weekends to implement all the detectors and descriptors in this project. This project also saw the birth of 'Flip invariant SIFT', which is my proposal. It well addressed the sensitivity issue of SIFT to flip transformation. The project name was given by my Ph.D supervisor as this project was started during my PhD in VIREO research group in City University of Hong Kong.
 
 The included detectors are hessian, laplacian-of-Gaussian, Harris and SURF. The included descriptors are SIFT, LJET, Flip-invariant SIFT, RIFT, and SPIN. Please find out more details from the manual.
 
 # Detectors and Descriptors
 #### Detectors: Difference-of-Gaussian (DoG), Laplacian-of-Gaussian (LoG), Hessian, Hessian-Laplacian, Harris, Harris-Laplacian, SURF, and Hessian-Affine
-#### Descriptors: SIFT, F-SIFT, SURF, FIND, SPIN, LJET, and RIFT
+#### Descriptors: SIFT [1], F-SIFT [2], SURF [3], FIND, SPIN, LJET, and RIFT
+
+###### [1] David G. Lowe: Distinctive Image Features from Scale-Invariant Keypoints, IJCV'04.
+###### [2] Wan-Lei Zhao, Chong-Wah Ngo: Flip-invariant SIFT for Copy and Object Detection, TIP'13. 
+###### [3] Herbert Bay, Tinne Tuytelaars, Luc Van Gool: SURF: Speeded up robust features, ECCV'06
 
 # Compile
 ##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MingW) under Windows with only small changes.
