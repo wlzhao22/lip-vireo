@@ -18,7 +18,12 @@ The included detectors are Hessian, laplacian-of-Gaussian, Harris and SURF. The 
 ##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MinGW) under Windows with only small changes.
 #### Step 1. Download libjpeg, zlib and libpng packages and compile them respectively, copy libjpeg.a, zlib.a and libpng.a to "libs/" folder
 #### Step 2. Run make install for zlib and libpng on your system
-#### Step 3. Run "make release" under the folder
+#### Step 3. Run "make release" under the folder as follows
+
+```shell
+$ cd lip-vireo
+$ make release
+```
 
 ##### The prerequisite packages could be found under the "packages" folder or from the following URLs
 ###### 1. https://zlib.net/zlib-1.2.12.tar.xz
