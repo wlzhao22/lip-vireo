@@ -20,6 +20,11 @@ The included detectors are hessian, laplacian-of-Gaussian, Harris and SURF. The 
 #### Step 2. Run make install for zlib and libpng on your system
 #### Step 3. Run "make release" under the folder
 
+##### URLS for the packages
+###### 1. https://zlib.net/zlib-1.2.12.tar.xz
+###### 2. https://udomain.dl.sourceforge.net/project/libpng/libpng16/1.6.37/libpng-1.6.37.tar.xz
+###### 3. http://sources.buildroot.net/libjpeg/
+
 # Manual
 ##### A PDF manual of the overview about the detectors and descriptors, as well as the call of lip-vireo from commandline could be found under "manual" folder.
 
