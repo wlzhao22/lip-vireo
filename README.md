@@ -15,7 +15,7 @@ The included detectors are Hessian, laplacian-of-Gaussian, Harris and SURF. The 
 ###### [3] Herbert Bay, Tinne Tuytelaars, Luc Van Gool: SURF: Speeded up robust features, ECCV'06
 
 # Compile
-##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MinGW) under Windows with only small changes. For Windows, user should install MinGW first, then edit "iotool.cpp", comment out the following lines in the file
+##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MinGW) under Windows with only small changes. For Windows, user should install MinGW first, then edit "iotool.cpp" and "config.h", comment out the following lines in the files
 
 ```code
 #ifndef LINUX
