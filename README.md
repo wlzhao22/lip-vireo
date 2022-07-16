@@ -15,7 +15,14 @@ The included detectors are Hessian, laplacian-of-Gaussian, Harris and SURF. The 
 ###### [3] Herbert Bay, Tinne Tuytelaars, Luc Van Gool: SURF: Speeded up robust features, ECCV'06
 
 # Compile
-##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MinGW) under Windows with only small changes.
+##### This project can be smoothly compiled under Ubuntu and MacOS, while it is also possible to be compiled successfully (by MinGW) under Windows with only small changes. For Windows, user should install MinGW first. Then edit "iotool.cpp", comment out the following lines in the file
+
+```code
+#ifndef LINUX
+#define LINUX
+#endif
+```
+
 #### Step 1. Download libjpeg, zlib and libpng packages and compile them respectively, copy libjpeg.a, zlib.a and libpng.a to "libs/" folder
 ##### for MacOS, please use jpeg_MacOS.zip, for Ubuntu 16.x or later please use jpeg_MacOS.zip
 
