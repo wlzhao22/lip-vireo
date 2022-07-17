@@ -24,7 +24,6 @@ The included detectors are Hessian, laplacian-of-Gaussian, Harris and SURF. The 
 ```
 
 #### Step 1. Download libjpeg, zlib and libpng packages and compile them respectively, copy libjpeg.a, zlib.a and libpng.a to "libs/" folder
-##### for MacOS, please use jpeg_MacOS.zip, for Ubuntu 16.x or later please use jpeg_MacOS.zip
 
 #### Step 2. Run make install for zlib and libpng on your system
 #### Step 3. Run "make release" under the folder as follows
