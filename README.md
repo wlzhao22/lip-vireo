@@ -49,4 +49,4 @@ $ make release
 
 # Author
 ##### Wan-Lei Zhao
-###### He was born in a village in Yunnan province, China. He loves to share his work.
+###### He has been benefit from many open-soure projects. He is willing to share his work as well.
