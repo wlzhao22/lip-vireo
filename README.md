@@ -1,5 +1,5 @@
 # lip-vireo
-This is a C++ project including traditional image keypoint detectors and descriptors. 
+This is a C++ project that imcludes the implementations of the traditional image keypoint detectors and descriptors. 
 
 # Overview
 In nowadays, traditional image keypoint detectors and descriptors are no longer popular as they were in 2000s. They have given place to the deep features, which become increasingly popular since 2012. However, the theories upon which the traditional detectors and descriptors are built are still shiny in nowadays. The scale-space theory from Dr. Tony Lindberg is beautiful. I learned a lot from his papers and book. It took me hundreds of weekends to implement all the detectors and descriptors in this project. This project also saw the birth of 'Flip invariant SIFT', which is my proposal. It well addressed the sensitivity issue of SIFT to flip transformation. The project name was given by my PhD supervisor as this project was started during my PhD in VIREO research group in City University of Hong Kong. 
